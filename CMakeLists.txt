@@ -12,7 +12,7 @@ set(PROJECT_NAME wifi_modem)
 set(CYW43_HOST_NAME "PicoW2")
 
 # Pull in Raspberry Pi Pico SDK (must be before project)
-include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+include(https://github.com/raspberrypi/pico-sdk/tree/master/external/pico_sdk_import.cmake)
 
 project(${PROJECT_NAME})
 
